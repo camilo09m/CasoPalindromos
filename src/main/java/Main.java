@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        opcionMenu();
     }
     public static String leerEntrada(){
         Scanner tecla = new Scanner(System.in);
