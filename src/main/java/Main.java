@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-
     }
     public static String leerEntrada(){
         Scanner tecla = new Scanner(System.in);
@@ -21,4 +20,32 @@ public class Main {
         }
         return limpio;
     }
+    public static void mostrarMenu(){
+        System.out.println("Ingrese la opcion que desea realizar:");
+        System.out.println("1)verificar si es un palindromo");
+        System.out.println("2)verificar y mostrar si es un palindromo");
+        System.out.println("3)Salir");
+    }
+    public static void opcionMenu(){
+        Scanner tecla = new Scanner(System.in);
+        int aux = 0;
+        while (aux==0){
+            mostrarMenu();
+            String opcion = tecla.next();
+            switch (opcion){
+                case "1":
+                    break;
+                case "2":
+                    break;
+                case "3":
+                    aux =1;
+                    break;
+                default:
+                    System.err.println("opcion ingresada no valida, intentelo nuevamente");
+                    break;
+            }
+        }
+        }
 }
+
+
