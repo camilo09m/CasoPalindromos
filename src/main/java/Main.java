@@ -34,8 +34,10 @@ public class Main {
             String opcion = tecla.next();
             switch (opcion){
                 case "1":
+
                     break;
                 case "2":
+
                     break;
                 case "3":
                     aux =1;
